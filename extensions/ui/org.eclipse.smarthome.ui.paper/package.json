@@ -28,7 +28,7 @@
     "material-design-icons": "2.0.0",
     "openlayers": "4.2.0",
     "roboto-fontface": "0.4.2",
-    "sprintf-js": "1.0.3",
+    "sprintf-js": "1.1.2",
     "tinycolor2": "1.1.2"
   },
   "engines": {
