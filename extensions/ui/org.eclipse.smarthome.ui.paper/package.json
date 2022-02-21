@@ -19,7 +19,7 @@
     "angular-sanitize": "1.5.7",
     "angular-material": "1.0.1",
     "angular-material-expansion-panel": "0.7.2",
-    "angular-ui-sortable": "0.13.4",
+    "angular-ui-sortable": "0.19.0",
     "bootstrap": "3.3.2",
     "eventsource-polyfill": "https://github.com/amvtek/EventSource/tarball/53616d4",
     "jquery": "2.1.3",
