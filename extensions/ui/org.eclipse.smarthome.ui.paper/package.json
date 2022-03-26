@@ -7,7 +7,9 @@
     "start": "gulp serve",
     "build": "gulp default",
     "test": "gulp test",
-    "dev": "gulp serve --development --noMinify"
+    "dev": "gulp serve --development --noMinify",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "angular": "1.5.7",
@@ -29,7 +31,8 @@
     "openlayers": "4.2.0",
     "roboto-fontface": "0.4.2",
     "sprintf-js": "1.0.3",
-    "tinycolor2": "1.1.2"
+    "tinycolor2": "1.1.2",
+    "@snyk/protect": "latest"
   },
   "engines": {
     "node": ">=0.12.3"
@@ -55,5 +58,6 @@
     "karma-phantomjs-launcher": "^1.0.1",
     "karma-spec-reporter": "0.0.26",
     "merge-stream": "^1.0.1"
-  }
+  },
+  "snyk": true
 }
